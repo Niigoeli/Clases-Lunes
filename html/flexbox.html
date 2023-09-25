@@ -34,15 +34,27 @@
             width: 200px;
             height: 200px;
             background-color: black;
+            border-radius: 15px;
         }
         #son_one {
             background-color: rgb(162, 243, 243);
+            transform: rotate(45deg);
+          
         }
         #son_two {
             background-color: rgb(158, 248, 180);
+            transform: scale(1.2);
+            border-radius: 50%;
+           
         }
         #son_three {
             background-color: rgb(232, 245, 160);
+            transform: skew(-5deg, -10deg);
+        }
+        #son:hover{
+            transform: scale(1.2);
+           
+            transition: all ease-in-out 0.7s;
         }
     </style>
 </head>
