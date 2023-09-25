@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(170, 170, 248);
+        }
+        h1 {
+            color: blueviolet;
+            background-color: rgb(228, 205, 250);
+            text-align: center;
+            box-shadow: 0px 0px 10px 1px rgb(255, 0, 255);
+        }
+        #father {
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            /* display: grid;
+            place-items: center; */
+        }
+        #son, #son_one, #son_two, #son_three {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+        #son_one {
+            background-color: rgb(162, 243, 243);
+        }
+        #son_two {
+            background-color: rgb(158, 248, 180);
+        }
+        #son_three {
+            background-color: rgb(232, 245, 160);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="content_container">
+            <h1>CLASS FLEXBOX</h1>
+        </div>
+        <div id="father">
+            <div id="son"></div>
+            <div id = "son_one"></div>
+            <div id = "son_two"></div>
+            <div id = "son_three"></div>
+        </div>
+    </div>
+</body>
+</html>
