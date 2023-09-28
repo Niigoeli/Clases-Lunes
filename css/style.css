@@ -1,32 +1,32 @@
 /* importacion de tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,900&display=swap");
 
 /* selector universal */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
 }
 
 body {
-    background-color: paleturquoise;
+  background-color: paleturquoise;
 }
 
 /* selector de etiqueta */
 h1 {
-    /* font-family: 'Poppins'; */
-    font-weight: 900;
-    color: palevioletred;
+  /* font-family: 'Poppins'; */
+  font-weight: 900;
+  color: palevioletred;
 }
 
 /* selector de etiqueta */
 h2 {
-    color: plum;
+  color: plum;
 }
 
 /* selector de id */
 #site_text {
-    background-color: bisque;
+  background-color: bisque;
 }
 
 /* selector de clase */
@@ -37,98 +37,97 @@ h2 {
 
 /* selector por atributo */
 input[disable] {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 /* selector por id - boton enviar */
 #btn_send {
-    margin: 50px;
-    padding: 50px;
-
+  margin: 50px;
+  padding: 50px;
 }
 
 /* selector por pseudoclase */
 #btn_send:hover {
-    background-color: pink;
-    color: blueviolet;
-    font-size: 20px;
+  background-color: pink;
+  color: blueviolet;
+  font-size: 20px;
 }
 
 #papa {
-    margin-left: 50px;
-    border: 2px double palevioletred;
-    border-radius: 10px;
+  margin-left: 50px;
+  border: 2px double palevioletred;
+  border-radius: 10px;
 }
 
 .hermanos {
-    background-color: aquamarine;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px;
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px;
 }
 
 #nh_uno {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 /* selector descendente hijo */
-#papa>.hermanos>#nh_uno {
-    color: violet;
+#papa > .hermanos > #nh_uno {
+  color: violet;
 }
 
 #papa .nieto {
-    color: brown;
+  color: brown;
 }
 
 span {
-    color: blue;
+  color: blue;
 }
 
 #title_box {
-    color: black;
-    font-family: 'Poppins' sans-serif;
-    background-color: beige;
-    text-align: center;
-    padding-left: 20px;
-    margin: 50px;
-    border: 3px dotted black;
-    border-radius: 10px;
-    box-shadow: 30px 33px 15px -3px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
-    box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
-    word-spacing: 5px;
-    letter-spacing: 5px;
-    font-size: 30px;
+  color: black;
+  font-family: "Poppins" sans-serif;
+  background-color: beige;
+  text-align: center;
+  padding-left: 20px;
+  margin: 50px;
+  border: 3px dotted black;
+  border-radius: 10px;
+  box-shadow: 30px 33px 15px -3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
+  box-shadow: 10px 10px 5px 0px rgba(250, 187, 250, 1);
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  font-size: 30px;
 }
 
 #box_father {
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/765/406/516/landscape-4k-bliss-windows-xp-wallpaper-preview.jpg);
-    background-size: cover;
-    background-position: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/765/406/516/landscape-4k-bliss-windows-xp-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 800px) and (max-width: 1200px) {
-    body {
-        background-color: blue;
-    }
+  body {
+    background-color: blue;
+  }
 
-    h1 {
-        text-align: center;
-    }
+  h1 {
+    text-align: center;
+  }
 }
 
-    @media (max-width: 799px) {
-        body {
-            background-image: url(https://p4.wallpaperbetter.com/wallpaper/765/406/516/landscape-4k-bliss-windows-xp-wallpaper-preview.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    }
+@media (max-width: 799px) {
+  body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/765/406/516/landscape-4k-bliss-windows-xp-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
